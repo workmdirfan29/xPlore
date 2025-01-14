@@ -1,6 +1,6 @@
 # xPlore Landing Page
 
-[!Banner](https://github.com/workmdirfan29/xPlore/blob/main/bg.png)
+[Banner](https://github.com/workmdirfan29/xPlore/blob/main/bg.png)
 
 ## Features
 - This website provides free hotels booking
