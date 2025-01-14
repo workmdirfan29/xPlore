@@ -5,4 +5,4 @@
 ## Features
 - This website provides free hotels booking
 - And guide travels to specific travels spot.
-+ It may help to travelers travel easly.
+- It may help to travelers travel easly.
