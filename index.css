@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url('Nature.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.7rem 3.5rem;
+}
+
+.navbar h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: 3.5px;
+}
+
+.navbar h1 span {
+    color: #f4ac37;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.1rem;
+    list-style: none;
+    padding-right: 4rem;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: rgba(74, 69, 69, 0.642);
+    font-size: 1.2rem;
+    padding-right: 2rem;
+    font-weight: 550;
+}
+
+.nav-menu ul li a:hover {
+    color: rgb(57, 52, 52);
+}
+
+.booking-btn {
+    padding: .6rem 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    color: #fff;
+    background-color: #f4ac37;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.left-content {
+    height: 70vh;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem;
+    color: #fff;
+    gap: 1.5rem;
+}
+
+.left-content h1 {
+    font-size: 3.3rem;
+    letter-spacing: 1px;
+}
+
+.left-content span {
+    color: #FAB33E;
+}
+
+.left-content p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.search-country {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.2rem;
+}
+
+.input-box {
+    width: 100%;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    border: 2px solid #926c2e;
+}
+
+.input-box::placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(50, 45, 45);
+}
+
+.search-btn {
+    padding: 0.7rem 1.7rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 0.4rem;
+    border: none;
+    outline: none;
+    background-color: #f4ac37;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+
+/* Tablet View (768px and below) */
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 1.7rem 2rem;
+    }
+
+    .navbar h1 {
+        font-size: 2rem;
+    }
+
+    .nav-menu ul {
+        gap: 1.5rem;
+    }
+
+    .nav-menu ul li a {
+        font-size: 1rem;
+    }
+
+    .booking-btn {
+        padding: .5rem 1rem;
+    }
+
+    .left-content {
+        width: 70vw;
+        padding: 4rem;
+    }
+
+    .left-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .left-content p {
+        font-size: 1rem;
+    }
+
+    .search-country {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .input-box {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .search-btn {
+        padding: 1rem;
+        width: 100%;
+    }
+}
+
+/* Mobile View (480px and below) */
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 1rem 1.5rem;
+    }
+
+    .navbar h1 {
+        font-size: 1.8rem;
+    }
+
+    .nav-menu ul {
+        gap: 1rem;
+    }
+
+    .nav-menu ul li a {
+        font-size: 0.9rem;
+    }
+
+    .booking-btn {
+        padding: .4rem 0.8rem;
+    }
+
+    .left-content {
+        width: 85vw;
+        padding: 2rem;
+    }
+
+    .left-content h1 {
+        font-size: 2rem;
+    }
+
+    .left-content p {
+        font-size: 0.9rem;
+    }
+
+    .search-country {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .input-box {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .search-btn {
+        padding: 1rem;
+        width: 100%;
+    }
+}
+
+/* Extra Small Mobile View (320px and below) */
+@media screen and (max-width: 320px) {
+    .navbar h1 {
+        font-size: 1.6rem;
+    }
+
+    .navbar h1 span {
+        font-size: 1.6rem;
+    }
+
+    .nav-menu ul {
+        gap: 0.8rem;
+    }
+
+    .nav-menu ul li a {
+        font-size: 0.8rem;
+    }
+
+    .left-content {
+        width: 90vw;
+        padding: 1.5rem;
+    }
+
+    .left-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .left-content p {
+        font-size: 0.85rem;
+    }
+
+    .search-country {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .input-box {
+        padding: 1rem;
+    }
+
+    .search-btn {
+        width: 100%;
+    }
+}
