@@ -1,8 +1,11 @@
-# xPlore Landing Page
+# xPlore – Discover & Book Your Next Adventure
 
-![Banner](https://github.com/workmdirfan29/xPlore/blob/main/bg.png)
+![Banner](./assets/bg.png)
 
-## Features
-- This website provides free hotels booking
-- And guide travels to specific travels spot.
-- It may help to travelers travel easly.
+## Why Choose xPlore?
+
+- **Free Hotel Bookings**: Easily book hotels at no cost, with the best deals and zero hidden charges.
+- **Personalized Travel Guides**: Get customized travel guides for top destinations worldwide.
+- **Seamless Travel Planning**: From planning to booking, xPlore makes travel stress-free and enjoyable.
+
+> Your journey begins here — explore the world with ease and confidence.
