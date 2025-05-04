@@ -189,7 +189,62 @@ header {
   .blog-card a:hover {
     color: #d18b1b;
   }
- 
+  .popular-section {
+    padding: 4rem 2rem;
+    background-color: rgba(255, 255, 255, 0.92);
+    text-align: center;
+  }
+  
+  .popular-section h2 {
+    font-size: 2.8rem;
+    color: #f4ac37;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .destinations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .destination-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .destination-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .destination-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .destination-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .destination-card p {
+    font-size: 1rem;
+    color: #555;
+    padding: 0 1rem 1.5rem;
+  }
+  
+  
+  
+  
   @keyframes fadeInUp {
     to {
       opacity: 1;
