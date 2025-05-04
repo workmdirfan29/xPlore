@@ -6,7 +6,7 @@
 }
 
 header {
-    height: 100vh;
+   min-height: 100vh;
     width: 100%;
     background-image: url('./assets/Nature.jpg');
     background-repeat: no-repeat;
@@ -125,6 +125,86 @@ header {
     color: #fff;
     cursor: pointer;
 }
+.blog-section {
+    padding: 4rem 2rem;
+    background-color: #f7f4ef;
+    text-align: center;
+  }
+  
+  .blog-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .blog-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .blog-card {
+    background: #fff;
+    border-left: 5px solid #f4ac37;
+    border-radius: 8px;
+    padding: 1.8rem;
+    max-width: 300px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+    position: relative;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeInUp 1s forwards;
+  }
+  
+  .blog-card:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .blog-card:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .blog-card h3 {
+    font-size: 1.4rem;
+    color: #222;
+    margin-bottom: 0.8rem;
+  }
+  
+  .blog-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-card a {
+    text-decoration: none;
+    color: #f4ac37;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  .blog-card a:hover {
+    color: #d18b1b;
+  }
+ 
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .blog-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
 @media screen and (max-width: 768px) {
     .navbar {
         padding: 1.7rem 2rem;
