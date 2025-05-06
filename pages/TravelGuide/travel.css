@@ -10,20 +10,23 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
-
-/* Header */
 header {
-    background: #2c3e50;
+    background: #f4ac37;
     color: white;
-    padding: 20px 0;
+    padding: 13px 0;
     text-align: center;
 }
-
+header h1{
+    color:#fff;
+    font-size: 3.2rem;
+}
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    font-size: 20px;
+   
 }
 
 nav ul li {
@@ -31,30 +34,50 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #00000090;
     text-decoration: none;
     font-weight: bold;
 }
-
-/* Hero Section */
+nav ul li a:hover{
+    color: #000;
+}
 #hero {
-    background: url('images/hero.jpg') no-repeat center center/cover;
-    height: 300px;
+    background: url('https://images.pexels.com/photos/31350282/pexels-photo-31350282/free-photo-of-breathtaking-view-of-mesa-verde-national-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center/cover;
+    height: 400px;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-shadow: 1px 1px 4px #000;
+    margin: 1.8rem;
+    padding: 20px;
+    border-radius: 10px;
 }
-
-/* Sections */
+#hero h2{
+    font-size: 3rem;
+    color: #f4ac37;
+} 
+#hero p{
+    font-size: 2rem;
+}
+#destinations h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #f4ac37;
+}
+#tips h2{
+    font-size: 3.5rem;
+    color: #f4ac37;
+}
+#tips ul li{
+    font-size: 1.5rem;
+}
 section {
     padding: 40px 20px;
     text-align: center;
 }
 
-/* Destinations */
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +103,6 @@ section {
     border-radius: 10px;
 }
 
-/* Travel Tips */
 ul {
     list-style: none;
     padding: 0;
@@ -90,51 +112,19 @@ ul li {
     margin: 10px 0;
 }
 
-/* Gallery */
 .gallery {
     display: flex;
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
 }
-
+#gallery h2{
+    font-size: 3rem;
+    color: #f4ac37;
+    margin-bottom: 2rem;
+}
 .gallery img {
-    width: 200px;
+    width: 400px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-}
-
-/* Contact Form */
-form {
-    max-width: 400px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-form input,
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-form button {
-    background: #3498db;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background: #2980b9;
-}
-
-/* Footer */
-footer {
-    background: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 40px;
 }
