@@ -3,10 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travelguide</title>
+    <title>Travel Guide</title>
     <link rel="stylesheet" href="travel.css">
 </head>
 <body>
-    <h1>This is travel guide page</h1>
+    <header>
+        <h1>World Travel Guide</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#tips">Travel Tips</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Explore the World with Us</h2>
+        <p>Your adventure begins here.</p>
+    </section>
+
+    <section id="destinations">
+        <h2>Top Destinations</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="images/paris.jpg" alt="Paris">
+                <h3>Paris, France</h3>
+                <p>City of lights and love. Visit the Eiffel Tower and savor French cuisine.</p>
+            </div>
+            <div class="card">
+                <img src="images/tokyo.jpg" alt="Tokyo">
+                <h3>Tokyo, Japan</h3>
+                <p>Experience futuristic tech and rich traditions side-by-side.</p>
+            </div>
+            <div class="card">
+                <img src="images/nyc.jpg" alt="New York City">
+                <h3>New York City, USA</h3>
+                <p>The city that never sleeps. Explore Times Square and Central Park.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tips">
+        <h2>Travel Tips</h2>
+        <ul>
+            <li>Pack light and smart.</li>
+            <li>Keep digital and paper copies of important documents.</li>
+            <li>Learn a few phrases of the local language.</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <img src="images/gallery1.jpg" alt="Beach">
+            <img src="images/gallery2.jpg" alt="Mountains">
+            <img src="images/gallery3.jpg" alt="Cityscape">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5"></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Travel Guide. All rights reserved.</p>
+    </footer>
 </body>
 </html>
