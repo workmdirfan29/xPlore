@@ -57,10 +57,10 @@ header {
     padding: .6rem 0.9rem;
     display: flex;
     justify-content: center;
+    background:  #e79d26;
     align-items: center;
     gap: 0.3rem;
     color: #fff;
-    background-color: #f4ac37;
     border: none;
     outline: none;
     border-radius: 0.3rem;
@@ -68,7 +68,9 @@ header {
     cursor: pointer;
     font-weight: 700;
 }
-
+.booking-btn:hover {
+    background-color:#d89b39;
+}
 .left-content {
     height: 70vh;
     width: 55vw;
@@ -121,9 +123,12 @@ header {
     border-radius: 0.4rem;
     border: none;
     outline: none;
-    background-color: #f4ac37;
+    background-color: #df951d;
     color: #fff;
     cursor: pointer;
+}
+.search-btn:hover{
+  background-color: #dc981a;
 }
 .blog-section {
     padding: 4rem 2rem;
