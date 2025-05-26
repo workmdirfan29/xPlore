@@ -68,6 +68,15 @@ header {
     cursor: pointer;
     font-weight: 700;
 }
+.booking-btn a{
+  text-decoration: none;
+  display: flex;
+  margin-top: 2px;
+  font-weight: 700;
+  color: #fff;
+  gap: 6px;
+  font-size: 1.1rem;
+}
 .booking-btn:hover {
     background-color:#d89b39;
 }
